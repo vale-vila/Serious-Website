@@ -1,0 +1,145 @@
+.mega{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    
+}
+
+.one{
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+
+
+.one, .five{
+    background-color: rgb(60, 60, 129);
+    padding-bottom: 30px;
+
+}
+
+.one, .two, .three, .four, .five{
+
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap:15px;
+    color:white;
+}
+
+a{
+    color: white;
+}
+
+.modal{
+    display:flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.modal,.tammie-pic{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.Head-Links{
+    margin-left: 400px;
+    flex-shrink: 0;
+}
+
+.header-one{
+    font-size: 50px;
+}
+
+.button{
+    padding: 10px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+}
+.header-two{
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    height: 100px;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 300px;
+    flex-grow: 0;
+}
+
+.block{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tammie-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.three{
+    background-color: rgb(184, 218, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(127, 133, 138);
+    padding: 30px;
+}
+.signed{
+    align-self: end;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.blue{
+    background-color: rgb(124, 124, 249);
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    color: white;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.top{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.five{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
